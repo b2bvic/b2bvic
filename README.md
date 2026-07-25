@@ -23,3 +23,11 @@ I work where acquisition systems meet developer tools: turning technical capabil
 - Documentation that tells the next operator what the system does, how to verify it, and what it does not guarantee.
 
 My commercial work is at [Scale With Search](https://aifirstsearch.com).
+
+## The map
+
+Each repository above is one expression of a documented operating philosophy: [seventeen principles of knowledge work](https://victorvalentineromo.com/principles).
+
+## How this was built
+
+This 2026 README refresh used model assistance. No claim is made here about how any linked repository's code was authored; each repository's own README carries its provenance.
