@@ -10,7 +10,7 @@ I work where acquisition systems meet developer tools: turning technical capabil
 |---|---|
 | [pretool-memory](https://github.com/b2bvic/pretool-memory) | A fail-open Claude Code hook that retrieves relevant local knowledge before read-oriented tool calls. Bash, JSONL transcript parsing, QMD BM25, SQLite FTS5, throttling, and deduplication. |
 | [safe-api](https://github.com/b2bvic/safe-api) | A zero-dependency Python wrapper for dry-run defaults, scope controls, duplicate checks, circuit breaking, incident files, and JSONL audit receipts around REST mutations. |
-| [declip](https://github.com/b2bvic/declip) | A local-first Apple Silicon CLI that turns long-form video into edited clips with transcription, silence removal, captions, reframing, and export. |
+| [declip](https://github.com/b2bvic/declip) | A local-first Apple Silicon CLI for transcription, filler removal, gap compression, EQ, and NLE/SRT export. |
 | [subtlebodhi](https://github.com/b2bvic/subtlebodhi) | A public reference architecture for persistent agent memory, domain routing, durable state, and reusable skills inside a markdown vault. |
 | [observer-protocol](https://github.com/b2bvic/observer-protocol) | An agent-governance experiment built around approval gates, drift detection, correction history, and observable work loops. |
 | [web2md](https://github.com/b2bvic/web2md) | A single-command web extraction utility that converts a page into clean, source-attributed Markdown. |
