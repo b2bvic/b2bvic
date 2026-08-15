@@ -1,33 +1,42 @@
 # Victor Valentine Romo
 
-Technical growth operator building AI-native search, web-data, memory, and safe automation systems.
+I build owned context systems for operators who are tired of explaining which business, client, or decision applies before useful work can begin.
 
-I work where acquisition systems meet developer tools: turning technical capabilities into discoverable, testable workflows that another operator can run.
+The record stays in files they control. Software prepares the relevant evidence. The operator keeps judgment over sends, publishing, money, and production changes.
 
-## Start here
+My commercial work is at [Scale With Search](https://scalewithsearch.com/audit).
 
-| Repository | What it demonstrates |
+## Start with the incident
+
+You know the decision exists, but you cannot recover why it was made. A handoff stalls until you retell the history. An AI answer misses the one constraint that belongs to this account.
+
+The repositories below show how I keep those contexts separate, searchable, inspectable, and useful.
+
+| Repository | What the files demonstrate |
 |---|---|
-| [pretool-memory](https://github.com/b2bvic/pretool-memory) | A fail-open Claude Code hook that retrieves relevant local knowledge before read-oriented tool calls. Bash, JSONL transcript parsing, QMD BM25, SQLite FTS5, throttling, and deduplication. |
-| [safe-api](https://github.com/b2bvic/safe-api) | A zero-dependency Python wrapper for dry-run defaults, scope controls, duplicate checks, circuit breaking, incident files, and JSONL audit receipts around REST mutations. |
-| [declip](https://github.com/b2bvic/declip) | A local-first Apple Silicon CLI for transcription, filler removal, gap compression, EQ, and NLE/SRT export. |
-| [subtlebodhi](https://github.com/b2bvic/subtlebodhi) | A public reference architecture for persistent agent memory, domain routing, durable state, and reusable skills inside a markdown vault. |
-| [observer-protocol](https://github.com/b2bvic/observer-protocol) | An agent-governance experiment built around approval gates, drift detection, correction history, and observable work loops. |
-| [web2md](https://github.com/b2bvic/web2md) | A single-command web extraction utility that converts a page into clean, source-attributed Markdown. |
+| [subtlebodhi](https://github.com/b2bvic/subtlebodhi) | A reference architecture for owned Markdown memory, bounded context loading, durable state, and reusable procedures. |
+| [pretool-memory](https://github.com/b2bvic/pretool-memory) | A Claude Code hook that retrieves relevant local knowledge before read-oriented tool calls. |
+| [session-ledger](https://github.com/b2bvic/session-ledger) | A zero-dependency SQLite and FTS5 archive for local session records. |
+| [vault-crawl](https://github.com/b2bvic/vault-crawl) | A Rust retrieval core with provenance, content-addressed storage, search, and read-only diagnostics. |
+| [safe-api](https://github.com/b2bvic/safe-api) | A Python wrapper that places dry runs, scope controls, duplicate checks, circuit breaking, and receipts around REST writes. |
+| [observer-daemon](https://github.com/b2bvic/observer-daemon) | An external validator that checks model output against a written behavioral standard and records corrections. |
+| [observer-protocol](https://github.com/b2bvic/observer-protocol) | The written control model for approval gates, correction history, drift detection, and voice intake. |
+| [web2md](https://github.com/b2bvic/web2md) | A single-command utility that converts a web page into clean, source-attributed Markdown. |
 
 ## How I build
 
-- Receipts over adjectives: tests, dry runs, logs, incident artifacts, and explicit failure modes.
-- Local-first when the data is private or the loop needs to stay inspectable.
-- Human gates at the capability that publishes, sends, deletes, or spends.
-- Documentation that tells the next operator what the system does, how to verify it, and what it does not guarantee.
+- Keep source material and correction history in systems the operator controls.
+- Retrieve the smallest relevant context instead of loading an entire archive.
+- Put human gates where software can publish, send, delete, spend, or change production state.
+- Report what the system inspected, changed, skipped, or could not verify.
+- Document each public boundary so the repository does not imply private data or deployed behavior that it does not contain.
 
-My commercial work is at [Scale With Search](https://aifirstsearch.com).
+The shared doctrine is published as [seventeen principles of knowledge work](https://victorvalentineromo.com/principles).
 
-## The map
+## Work with me
 
-Each repository above is one expression of a documented operating philosophy: [seventeen principles of knowledge work](https://victorvalentineromo.com/principles).
+If your AI keeps losing the thread between active contexts, start with the [Amnesia Audit](https://scalewithsearch.com/audit).
 
-## How this was built
+## Provenance
 
-This 2026 README refresh used model assistance. No claim is made here about how any linked repository's code was authored; each repository's own README carries its provenance.
+This profile README was written from the current repository files and runtime-backed portfolio records. Model assistance helped with implementation. The repository-specific README remains the authority for each tool's boundaries and provenance.
