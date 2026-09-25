@@ -35,7 +35,7 @@ The shared doctrine is published as [seventeen principles of knowledge work](htt
 
 ## Work with me
 
-If your AI keeps losing the thread between active contexts, start with the [Amnesia Audit](https://scalewithsearch.com/audit).
+Start with a $1,500 credited working session; scope and terms on the [work page](https://scalewithsearch.com/work).
 
 ## Provenance
 
