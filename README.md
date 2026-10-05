@@ -65,3 +65,7 @@ The [source evidence](EVIDENCE.md) identifies the inspected revisions and implem
 ## Work with me
 
 See [Scale With Search](https://scalewithsearch.com/work) for current scope and terms.
+
+## Provenance
+
+This profile README was written from the current repository files, with model assistance. Each repository README is the authority for its tool's limits.
