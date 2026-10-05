@@ -1,42 +1,67 @@
-# Victor Valentine Romo
+# Agent orchestration and owned memory examples: b2bvic
 
-I build owned context systems for operators who are tired of explaining which business, client, or decision applies before useful work can begin.
+This profile collects agent orchestration and owned memory examples for team leads who use hosted models.
+Use these patterns when you must repeat business context or cannot recover an agent's work history.
 
-The record stays in files they control. Software prepares the relevant evidence. The operator keeps judgment over sends, publishing, money, and production changes.
+[Project page](https://scalewithsearch.com/code/b2bvic) · Victor Valentine Romo
 
-My commercial work is at [Scale With Search](https://scalewithsearch.com/audit).
+## Agent orchestration
 
-## Start with the incident
-
-You know the decision exists, but you cannot recover why it was made. A handoff stalls until you retell the history. An AI answer misses the one constraint that belongs to this account.
-
-The repositories below show how I keep those contexts separate, searchable, inspectable, and useful.
+Start with [agent-oversight](https://github.com/b2bvic/agent-oversight), the overview of independent tools for inspecting agent work.
+These are patterns a team can adopt with Claude Code and Codex CLI, subject to each tool's integration limits.
 
 | Repository | What the files demonstrate |
-|---|---|
-| [subtlebodhi](https://github.com/b2bvic/subtlebodhi) | A reference architecture for owned Markdown memory, bounded context loading, durable state, and reusable procedures. |
-| [pretool-memory](https://github.com/b2bvic/pretool-memory) | A Claude Code hook that retrieves relevant local knowledge before read-oriented tool calls. |
-| [session-ledger](https://github.com/b2bvic/session-ledger) | A zero-dependency SQLite and FTS5 archive for local session records. |
-| [vault-crawl](https://github.com/b2bvic/vault-crawl) | A Rust retrieval core with provenance, content-addressed storage, search, and read-only diagnostics. |
-| [safe-api](https://github.com/b2bvic/safe-api) | A Python wrapper that places dry runs, scope controls, duplicate checks, circuit breaking, and receipts around REST writes. |
-| [observer-daemon](https://github.com/b2bvic/observer-daemon) | An external validator that checks model output against a written behavioral standard and records corrections. |
-| [observer-protocol](https://github.com/b2bvic/observer-protocol) | The written control model for approval gates, correction history, drift detection, and voice intake. |
-| [web2md](https://github.com/b2bvic/web2md) | A single-command utility that converts a web page into clean, source-attributed Markdown. |
+| --- | --- |
+| [session-ledger](https://github.com/b2bvic/session-ledger) | Archive Claude Code and Codex session records in SQLite, then export shared records as JSON. |
+| [safe-api](https://github.com/b2bvic/safe-api) | Preview REST writes with dry runs, endpoint checks, duplicate callbacks, and JSONL receipts. |
+| [observer-daemon](https://github.com/b2bvic/observer-daemon) | Check response text against configured writing rules and record corrections. |
 
-## How I build
+## Owned memory
 
-- Keep source material and correction history in systems the operator controls.
-- Retrieve the smallest relevant context instead of loading an entire archive.
-- Put human gates where software can publish, send, delete, spend, or change production state.
-- Report what the system inspected, changed, skipped, or could not verify.
-- Document each public boundary so the repository does not imply private data or deployed behavior that it does not contain.
+Start with [owned-record](https://github.com/b2bvic/owned-record), the reference for domain context and activity logs in Markdown.
+Use [pretool-memory](https://github.com/b2bvic/pretool-memory) for a Claude Code hook that retrieves local knowledge before selected tools.
 
-The shared doctrine is published as [seventeen principles of knowledge work](https://victorvalentineromo.com/principles).
+Keep an owned record. Prepare relevant context from that record. Keep human judgment at the decision and side-effect boundary.
+Markdown files and exported session JSON provide portable AI agent records. Client hooks still need their own integrations.
+
+## Install
+
+Install each tool from its repository README. This profile contains documentation.
+The quick start requires `curl`.
+
+## Quick start
+
+Use an empty directory for these commands. Fetch both hub READMEs into that directory:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/b2bvic/agent-oversight/main/README.md -o agent-oversight.md
+curl -fsSL https://raw.githubusercontent.com/b2bvic/owned-record/main/README.md -o owned-record.md
+wc -l agent-oversight.md owned-record.md
+```
+
+Read both files before installing a tool. The commands download documentation; they do not install hooks.
+
+## How it works
+
+Claude Code workflow patterns include context pointers and optional retrieval hooks.
+Codex CLI workflow patterns include transcript capture through Session Ledger.
+The oversight hub explains how to inspect records and evaluate changes.
+
+## Limits
+
+- The public examples come from a single-operator work record. They do not establish team deployments or customer outcomes.
+- The tools run independently. The overview does not ship an integrated orchestrator or a shared approval service.
+- A retrieved record can contain an incorrect statement. A writing score does not establish factual accuracy.
+- Enforce human approval where software sends, publishes, deletes, spends, or changes production state.
+- Data portability does not make a Claude Code hook compatible with another client.
+
+The [source evidence](EVIDENCE.md) identifies the inspected revisions and implementation boundaries.
+
+## Related repositories
+
+- [agent-oversight](https://github.com/b2bvic/agent-oversight): orchestration overview and evaluation guidance.
+- [owned-record](https://github.com/b2bvic/owned-record): Markdown memory overview and context routing.
 
 ## Work with me
 
-Start with a $1,500 credited working session; scope and terms on the [work page](https://scalewithsearch.com/work).
-
-## Provenance
-
-This profile README was written from the current repository files and runtime-backed portfolio records. Model assistance helped with implementation. The repository-specific README remains the authority for each tool's boundaries and provenance.
+See [Scale With Search](https://scalewithsearch.com/work) for current scope and terms.
