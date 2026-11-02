@@ -1,11 +1,23 @@
-# Victor Valentine Romo: agent oversight, owned records, and SEO checks
+# Victor Valentine Romo
 
-Tools from a working setup that runs Claude Code and Codex CLI on hosted models for a small search consultancy.
-Each repository fixes one problem that setup hit: agent sessions that start without the business context, agent work nobody can audit, video that needs cutting, and pages nobody checked before launch.
+SEO since 2013. I build the AI agent systems around search work, and I open-source the tools that keep them honest.
 
-[Project page](https://scalewithsearch.com/code/b2bvic) · Victor Valentine Romo · [Scale With Search](https://scalewithsearch.com)
+[LinkedIn](https://linkedin.com/in/victorvalentineromo) · [Scale With Search](https://scalewithsearch.com) · [Project page](https://scalewithsearch.com/code/b2bvic) · Raleigh-Durham, NC
 
-## Start here
+## Work
+
+| Years | Role | Results |
+| --- | --- | --- |
+| 2025 to now | Founder, Scale With Search | Websites, lead systems, and AI tools for service businesses. I find, scope, price, and close each engagement. |
+| 2020 to 2025 | COO and co-founder, FOUND (agency) | Full time in 2024: I personally secured 90% of new clients, and annual revenue grew 2,700% over 2023. AI-assisted processes raised clicks from high-value keywords by up to 1,400% in the first 12 months of an engagement, across 20+ industries. |
+| 2022 to 2024 | SEO manager, Grey Matter (agency) | First organic search hire. SEO strategy for 147 clients over 18 months. Audited, prioritized, and fixed 250,000+ technical and on-page issues in the first six months. Wrote the department's audit SOPs and cross-trained every employee. |
+| 2013 to 2022 | Ideamarket, America's Future Foundation, Cobra Carbide, Third Eye SEO | Search, content, and marketing roles. |
+
+More than 180 websites and client accounts written for, built, or audited, across more than a dozen industries. Tech SEO Pro certified.
+
+The tools below come from the setup I work in: Claude Code and Codex CLI on hosted models for a small search consultancy. Each repository fixes one problem that setup hit: agent sessions that start without the business context, agent work nobody can audit, video that needs cutting, and pages nobody checked before launch.
+
+## Open-source tools
 
 | Repository | What it does | Try it |
 | --- | --- | --- |
