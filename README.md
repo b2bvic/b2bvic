@@ -2,7 +2,7 @@
 
 SEO since 2013. I build the AI agent systems around search work, and I open-source the tools that keep them honest.
 
-[LinkedIn](https://linkedin.com/in/victorvalentineromo) · [Scale With Search](https://scalewithsearch.com) · [Project page](https://scalewithsearch.com/code/b2bvic) · Raleigh-Durham, NC
+[LinkedIn](https://www.linkedin.com/in/b2bvic) · [Scale With Search](https://scalewithsearch.com) · [Project page](https://scalewithsearch.com/code/b2bvic) · Raleigh-Durham, NC
 
 ## Work
 
