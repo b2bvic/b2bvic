@@ -4,7 +4,7 @@ SEO consultant. I get businesses found in Google and AI answers, then build the 
 
 [Scale With Search](https://scalewithsearch.com) · [Send your brief](https://scalewithsearch.com/work#send-your-brief) · [How it works](https://scalewithsearch.com/how-it-works) · [Proof](https://scalewithsearch.com/proof) · [All tools](https://scalewithsearch.com/code/) · [X](https://x.com/scalewithsearch)
 
-## Find. Fix. Own.
+## Find, fix, own
 
 Buyers ask Google who to call. Now they ask AI too. The question has not changed since I started in search in 2013: who does this, near me, for what price. What changed is who answers.
 
